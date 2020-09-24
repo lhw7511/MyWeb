@@ -3,8 +3,174 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="./css/common/reset.css">
+<style>
+	header{
+		width:100%;
+		height: 55px;
+		position: fixed;
+		top:0px;
+		background-color: white;
+	}
+	#header_top{
+		width:1300px;
+		height: 55px;	
+		margin: 0 auto;
+		
+		
+	}
+	#header_logo{
+		width : 110px;
+		height: 55px;
+		
+		
+	}
+	#header_nav{
+		width : 975px;
+		height: 55px;
+					  		
+	}
+	
+	#header_sub{
+		width : 215px;
+		height: 55px;				
+		}	
+	.header_menu{
+		float: left;
+	}
+	#header_nav li:first-child{		
+		margin-left: 15px;	     				
+	}
+	#header_nav li{
+		float :left;
+		list-style: none;
+		line-height:55px;	
+		height : 55px;
+		margin-left: 21px;	     				
+	}
+	
+    #header_nav a{
+		text-decoration: none;
+		color: #292929;	
+		font-size: 13px;
+		text-shadow: 1px 1px gray;
+	}
+	#header_nav  a:hover{
+		text-decoration: underline;
+		color: #787878;
+		font-size: 13px;
+		text-shadow: 1px 1px gray;
+	}
+	#header_sub li{
+		float: right;
+		list-style: none;		
+		height : 55px;
+		width :53.75px;			
+	}
+	#header_sub li >a{
+		float: right;
+		
+	}	
+
+	#main_container{
+		width:1300px;
+		height : 1700px;
+		background-color: yellow;
+		margin :60px auto 80px;
+		
+	}	
+	#main_banner{
+		width:1300px;
+		height : 600px;
+					
+	}
+	#main_bannerimg{
+		width: 1300px;
+		height: 600px;
+	}
+	
+	.section_menu{
+		width: 1300px;
+		height: 100px;
+		background-color: green;
+	}
+	.section_menu li{
+		float: left;
+		list-style: none;
+		height: 100px;
+			
+	}
+	footer{
+		width: 100%;
+		height:500px;
+		background-color: aqua;
+	}
+	#footer_wrap{
+		width: 1300px;
+		height: 500px;
+		background-color: red;
+		margin: 0 auto;
+	}				
+</style>
 </head>
 <body>
+	<header>
+		<div id="header_top">
+		<div id="header_logo" class="header_menu">
+			<a href="#"><img alt="" src="./images/main/logo.jpg"></a>
+		</div>		
+		<div id="header_nav" class="header_menu">
+			<ul>
+					<li><a href="#">NEW10%</a></li>
+        			<li><a href="#">BEST</a></li>
+        			<li><a href="#">MADE</a></li>
+        			<li><a href="#">CODI SET</a></li>
+			        <li><a href="#">OUTER</a></li>
+			        <li><a href="#">KNIT/CARDIGAN</a></li>
+			        <li><a href="#">SHIRTS</a></li>
+			        <li><a href="#">TEE</a></li>
+			        <li><a href="#">PANTS</a></li>
+			        <li><a href="#">SUIT</a></li>
+			        <li><a href="#">SHOES</a></li>
+			        <li><a href="#">BAG</a></li>
+			        <li><a href="#">SOCKS</a></li>
+			        <li><a href="#">CAP</a></li>
+			        <li><a href="#">ACC</a></li>
+			        <li><a href="#">SALE</a></li>
+				</ul>
+		</div>
+		<div id="header_sub" class="header_menu">
+				<ul>
+					<li><a href="#"><img alt="" src="./images/main/search.png"></a></li>
+					<li><a href="#"><img alt="" src="./images/main/board.png"></a></li>
+					<li><a href="#"><img alt="" src="./images/main/basket.png"></a></li>
+					<li><a href="#"><img alt="" src="./images/main/login.png"></a></li>
+				</ul>	
+		</div>
+		</div>		
+	</header>
+	<section id="main_container">
+		<div id="main_banner">
+			<a href=""><img alt="" src="./images/main/mainbanner.jpg" id="main_bannerimg"></a>
+		</div>
+		<div class="section_menu">
+			<ul>
+				<li><a href="#">LOG-IN</a></li>
+				<li><a href="#">JOIN(2,000 POINT)</a></li>
+				<li><a href="#">CART</a></li>
+				<li><a href="#">MY PAGE</a></li>
+				<li><a href="#">ORDER</a></li>
+				<li><a href="#">TRACKING</a></li>
+				<li><a href="#">+BOOKMARK</a></li>
+			</ul>
+		</div>
+	</section>
 	
+	<footer>
+		<div id="footer_wrap">
+		
+		</div>
+	
+	</footer>
 </body>
 </html>
