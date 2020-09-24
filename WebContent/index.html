@@ -65,7 +65,8 @@
 		float: right;
 		list-style: none;		
 		height : 55px;
-		width :53.75px;			
+		width :53.75px;	
+				
 	}
 	#header_sub li >a{
 		float: right;
@@ -74,9 +75,9 @@
 
 	#main_container{
 		width:1300px;
-		height : 1700px;
-		background-color: yellow;
-		margin :60px auto 80px;
+		height : 1240px;
+	
+		margin :60px auto 40px;
 		
 	}	
 	#main_banner{
@@ -89,16 +90,95 @@
 		height: 600px;
 	}
 	
-	.section_menu{
-		width: 1300px;
-		height: 100px;
-		background-color: green;
+	#section_menu{
+		width: 650px;
+		height: 100px;		
+		margin: 0 auto;
 	}
-	.section_menu li{
+	#section_menu li{
 		float: left;
 		list-style: none;
 		height: 100px;
+		line-height: 100px;	
+		font-size: 12px;
+		color: #555555;	
+		margin-left: 18px;
 			
+	}
+	#section_menu li>a{
+		text-decoration: none;
+		color: #555555;
+		font-size: 12px;
+	}
+	#section_menu li>a:hover{
+		text-decoration: none;
+		color: #787878;
+		font-size: 12px;
+	}
+	#point_color{
+		color: #346fb7;
+	}
+	#sub_banner{
+		width:1300px;
+		height:540px;
+	
+	}
+	#sub_banner_1{	
+	    float:left;	
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_2{
+		margin-left:20px;
+	    float:left;			
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_2_1{			   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_2_2{
+		margin-top:20px;			   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_3{
+		margin-left:20px;
+	     float:left;				
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_3_1{					   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_3_2{
+		margin-top:20px;					   	
+		width:420px;
+		height: 260px;
+		
+	}
+	
+	#list_container{
+		margin:0 auto;
+		width: 1300px;
+		height:1000px;
+		background-color: blue;
+		margin-bottom: 100px;
+	
+	}
+	#list_logo{
+		width: 131px;
+		height: 31px;
+		margin: 0 auto;
+		
 	}
 	footer{
 		width: 100%;
@@ -153,19 +233,55 @@
 		<div id="main_banner">
 			<a href=""><img alt="" src="./images/main/mainbanner.jpg" id="main_bannerimg"></a>
 		</div>
-		<div class="section_menu">
+		<div id="section_menu">
 			<ul>
 				<li><a href="#">LOG-IN</a></li>
-				<li><a href="#">JOIN(2,000 POINT)</a></li>
+				<li>|</li>
+				<li><a href="#">JOIN <span id="point_color">(2,000 POINT)</span></a></li>
+				<li>|</li>
 				<li><a href="#">CART</a></li>
+				<li>|</li>
 				<li><a href="#">MY PAGE</a></li>
+				<li>|</li>
 				<li><a href="#">ORDER</a></li>
+				<li>|</li>
 				<li><a href="#">TRACKING</a></li>
+				<li>|</li>
 				<li><a href="#">+BOOKMARK</a></li>
 			</ul>
 		</div>
+		<div id="sub_banner">
+			<div id="sub_banner_1">
+				<a href="#"><img src="./images/main/subbanner1.jpg"></a>
+			</div>
+			<div id="sub_banner_2">
+				<div id="sub_banner_2_1">
+					<a href="#"><img src="./images/main/subbanner2.jpg"></a>	
+				</div>
+				<div id="sub_banner_2_2">
+					<a href="#"><img src="./images/main/subbanner3.jpg"></a>	
+				</div>
+			</div>
+			<div id="sub_banner_3">
+				<div id="sub_banner_3_1">
+					<a href="#"><img src="./images/main/subbanner4.jpg"></a>	
+				</div>
+				<div id="sub_banner_3_2">
+					<a href="#"><img src="./images/main/subbanner5.jpg"></a>
+				</div>
+			</div>
+			
+		
+		</div>
 	</section>
 	
+	<section id="list_container">
+			<div id="list_logo">
+				<img alt="" src="./images/main/weeklybest.jpg">
+			</div>
+	
+	
+	</section>
 	<footer>
 		<div id="footer_wrap">
 		
