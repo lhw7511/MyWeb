@@ -1,0 +1,191 @@
+@charset "UTF-8";
+#main_container{
+		width:1300px;
+		height : 1240px;
+	
+		margin :60px auto 40px;
+		
+	}	
+	#main_banner{
+		width:1300px;
+		height : 600px;
+					
+	}
+	#main_bannerimg{
+		width: 1300px;
+		height: 600px;
+	}
+	
+	#section_menu{
+		width: 650px;
+		height: 100px;		
+		margin: 0 auto;
+	}
+	#section_menu li{
+		float: left;
+		list-style: none;
+		height: 100px;
+		line-height: 100px;	
+		font-size: 12px;
+		color: #555555;	
+		margin-left: 18px;
+			
+	}
+	#section_menu li>a{
+		text-decoration: none;
+		color: #555555;
+		font-size: 12px;
+	}
+	#section_menu li>a:hover{
+		text-decoration: none;
+		color: #787878;
+		font-size: 12px;
+	}
+	#point_color{
+		color: #346fb7;
+	}
+	#sub_banner{
+		width:1300px;
+		height:540px;
+	
+	}
+	#sub_banner_1{	
+	    float:left;	
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_2{
+		margin-left:20px;
+	    float:left;			
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_2_1{			   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_2_2{
+		margin-top:20px;			   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_3{
+		margin-left:20px;
+	     float:left;				
+		width:420px;
+		height: 540px;
+		
+	}
+	#sub_banner_3_1{					   	
+		width:420px;
+		height: 260px;
+				
+	}
+	#sub_banner_3_2{
+		margin-top:20px;					   	
+		width:420px;
+		height: 260px;
+		
+	}
+	
+	#list_container{
+		margin:0 auto;
+		width: 1300px;
+		height:1200px;
+		
+		margin-bottom: 55px;
+	
+	}
+	#list_logo{
+		width: 131px;
+		height: 31px;
+		margin: 0 auto;
+		
+	}
+	#list_1_wrap{
+		width: 1300px;
+		height: 500px;
+		margin-top : 10px;
+		
+		border-top: 1px solid #ccc;
+	}
+	#list_2_wrap{
+		width: 1300px;
+		height: 500px;
+		margin-top : 70px;
+		
+		
+	}
+	#list_1_wrap li:first-child{		
+		 margin-left:0px;		 
+	}
+	#list_1_wrap li{
+		list-style-type : none;
+		 margin-left:20px;
+		 margin-top: 20px;
+		 float: left;
+		 width: 310px;
+		 height: 480px;
+		
+	}
+	#list_2_wrap li:first-child{		
+		 margin-left:0px;		 
+	}
+	#list_2_wrap li{
+		list-style-type : none;
+		 margin-left:20px;
+		 margin-top: 20px;
+		 float: left;
+		 width: 310px;
+		 height: 480px;
+		
+	}
+	.review_count{
+		width:310px;
+		height: 15px;
+		font-size: 15px;
+		color: #999999;
+	}
+	.product_img{
+		margin-top :10px;
+		width:310px;
+		height: 340px;
+		
+	}
+	.product_info{
+		margin-top :30px;
+		width:310px;
+		height: 35px;
+		
+	}
+	.name_font{
+	font-size: 13px;
+	color:#666666;
+	}
+	.color_font{
+	font-size: 13px;
+	color:#999999;
+	}
+	.product_price{
+		
+		width:310px;
+		height: 50px;
+		border-top: 1px solid #d3d3d3;
+		
+	}
+	.price_font{
+	 font-size: 13px;
+	 color:#333333;
+	}
+	
+	.jumun_img{
+	 margin-top: 10px;
+	}
+	.madeflyday_img{
+	 margin-left: 5px;
+	 margin-top: 10px;
+	}
