@@ -63,7 +63,7 @@ header {
 .drop {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: white;
 	min-width: 120px;
 	line-height: 25px;
 	box-sizing: border-box;
