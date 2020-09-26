@@ -35,7 +35,8 @@ header{
 	#header_nav li:first-child{		
 		margin-left: 15px;	     				
 	}
-	#header_nav li{
+	#header_nav  li{
+	   
 		float :left;
 		list-style: none;
 		line-height:55px;	
@@ -43,18 +44,21 @@ header{
 		margin-left: 21px;	     				
 	}
 	
+	
     #header_nav a{
+    	
 		text-decoration: none;
 		color: #292929;	
 		font-size: 13px;
 		text-shadow: 1px 1px gray;
 	}
-	#header_nav  a:hover{
+	#header_nav a:hover{
 		text-decoration: underline;
 		color: #787878;
 		font-size: 13px;
 		text-shadow: 1px 1px gray;
 	}
+	
 	#header_sub li{
 		float: right;
 		list-style: none;		

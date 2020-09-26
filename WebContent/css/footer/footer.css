@@ -5,6 +5,7 @@ footer{
 		/*background-color: aqua;*/
 	}
 	#footer_wrap{
+		
 		width: 1300px;
 		height: 500px;
 		/*background-color: red;*/
@@ -16,7 +17,7 @@ footer{
 		width: 345px;
 		height: 470px;
 		margin-top: 30px;
-		background-color: white;
+	
 		font-size: 10.5px;
 		color:#777777;
 		line-height: 20px;
@@ -28,29 +29,29 @@ footer{
 		height: 470px;
 		margin-top: 30px;
 		margin-left:50px;
-		background-color: white;
+	
 		font-size: 10.5px;
 		color:#777777;
 		line-height: 20px;
 	}
+	
+	
+		
 	#footer_content_3{
 		float:left;
 		width: 230px;
 		height: 470px;
 		margin-top: 30px;
-		margin-left:50px;
-		background-color: white;
-		font-size: 10.5px;
-		color:#777777;
-		line-height: 20px;
-			
+		margin-left:50px;	
+		
 	}
 	
+
 	#footer_content_4{
 		float:left;
 		width: 345px;
 		height: 470px;
 		margin-top: 30px;
 		margin-left:50px;
-		background-color: white;
+		
 	}			
