@@ -11,6 +11,7 @@ footer{
 		/*background-color: red;*/
 		border-top: 1px solid #d3d3d3;
 		margin: 0 auto;
+		font-family: 'Nanum Gothic',돋움, dotum;
 	}	
 	#footer_content_1{
 		float:left;
