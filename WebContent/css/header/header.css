@@ -34,7 +34,7 @@ header {
 }
 
 #header_nav li:first-child {
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 #header_nav  li {
@@ -43,7 +43,10 @@ header {
 	list-style: none;
 	line-height: 55px;
 	height: 55px;
-	margin-left: 21px;
+	/*
+	크롬은 21px이 좋음 익스플로러에서 화면이 밀리는걸 방지하려고 19px로함
+	margin-left: 21px;*/
+	margin-left: 19px;
 }
 
 #header_nav li>a {
@@ -55,9 +58,7 @@ header {
 
 #header_nav li>a:hover {
 	text-decoration: underline;
-	color: #787878;
-	font-size: 13px;
-	text-shadow: 1px 1px gray;
+	color: #787878;	
 }
 
 .drop {
