@@ -8,10 +8,10 @@
 	}	
 	#main_banner{
 		width:1300px;
-		height : 600px;
+		height : 620px;
 					
 	}
-	#main_bannerimg{
+	.main_bannerimg{
 		width: 1300px;
 		height: 600px;
 	}

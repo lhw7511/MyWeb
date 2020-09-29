@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="./css/header/header.css">
 <link rel="stylesheet" href="./css/footer/footer.css">
 <link rel="stylesheet" href="./css/main/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
 </head>
 
 <body>
@@ -94,7 +100,7 @@
 					<li><a href="#">SALE</a></li>
 				</ul>
 			</div>
-			<div id="header_sub" class="header_menu">
+			<div id="header_sub" class="header_menu" >
 				<ul>
 					<li><a href="#"><img alt="" src="./images/main/search.png"></a></li>
 					<li><a href="#"><img alt="" src="./images/main/board.png"></a></li>
@@ -105,9 +111,21 @@
 		</div>
 	</header>
 	<section id="main_container">
-		<div id="main_banner">
-			<a href=""><img alt="" src="./images/main/mainbanner.jpg"
-				id="main_bannerimg"></a>
+		<div id="main_banner" class="fotorama" data-loop="true" data-autoplay="true" data-navposition="inside">
+			<a href="#"><img alt="" src="./images/main/mainbanner.jpg"
+				class="main_bannerimg"></a>
+			<a href="#"><img alt="" src="./images/main/mainbanner2.jpg"
+				class="main_bannerimg"></a>
+			<a href="#"><img alt="" src="./images/main/mainbanner3.jpg"
+				class="main_bannerimg"></a>
+			<a href="#"><img alt="" src="./images/main/mainbanner4.jpg"
+				class="main_bannerimg"></a>	
+			<a href="#"><img alt="" src="./images/main/mainbanner5.jpg"
+				class="main_bannerimg"></a>	
+			<a href="#"><img alt="" src="./images/main/mainbanner6.jpg"
+				class="main_bannerimg"></a>	
+			<a href="#"><img alt="" src="./images/main/mainbanner7.jpg"
+				class="main_bannerimg"></a>			
 		</div>
 		<div id="section_menu">
 			<ul>
