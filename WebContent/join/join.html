@@ -391,7 +391,7 @@ section {
 
 			<div class="agecheck">
 				<p>
-					<input type="checkbox"> <span
+					<input type="checkbox" id="age1"> <span
 						style="color: #0549bb; font-size: 14px; font-weight: bold;">14세이상입니다.
 						(필수)</span>
 				</p>
@@ -449,7 +449,9 @@ section {
 			var pwresult = document.getElementById("pwResult");
 			var d1 = document.getElementById("d1");
 			var a1 = document.getElementsByClassName("a1");
+			var age1 = document.getElementById("age1");
 			var count = 0;
+			
 			d1.addEventListener('click', function() {
 				if (d1.checked == true) {
 					for (var i = 0; i < c1.length; i++) {
@@ -477,6 +479,7 @@ section {
 			btn.addEventListener('click', function() {
 				var count = 0;
 				var check = true;
+				
 				if (c1[1].value.length >= 5 && c1[1].value.length < 10) {
 					count++;
 				}
@@ -496,7 +499,8 @@ section {
 				if (check) {
 					count++;
 				}
-				if (count == 4 && d1.checked) {
+				
+				if (count == 4 && d1.checked&&age1.checked) {
 					alert("Success");
 				} else {
 					alert("Fail");
