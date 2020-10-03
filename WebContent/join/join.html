@@ -9,8 +9,9 @@
 <style type="text/css">
 section {
 	width: 1300px;
-	height: 1500px;
-	margin: 200px auto 100px;
+	height: 1200px;
+	margin: 200px auto 0px;
+	
 }
 
 .titlebox {
@@ -38,6 +39,7 @@ section {
 	height: 1050px;
 	margin: 0 auto;
 	margin: 0 auto;
+	
 }
 
 .joinform {
@@ -104,6 +106,7 @@ section {
 	width: 100%;
 	height: 100px;
 	border: 1px solid #E1E1E1;
+	border-bottom:none;
 	box-sizing: border-box;
 }
 
@@ -124,7 +127,7 @@ section {
 	border-bottom: 1px solid #E1E1E1;
 	border-left: 1px solid #E1E1E1;
 	border-right: 1px solid #E1E1E1;
-	border-top: 1px dashed #E1E1E1;
+	border-top: 2px dashed #E1E1E1;
 	box-sizing: border-box;
 }
 
@@ -151,7 +154,7 @@ section {
 	line-height: 175px;
 }
 
-.agreebtn button {
+.agreebtn input {
 	background-color: #0549bb;
 	color: white;
 	width: 200px;
@@ -373,6 +376,7 @@ section {
 				<div class="c4 f1"></div>
 				<p>
 					<input type="date">
+					</p>
 				<div id="gender">
 					<input type="radio" value="1" name="gender" checked="checked">남
 					<input type="radio" value="2" name="gender">여
@@ -428,7 +432,8 @@ section {
 				</div>
 			</div>
 			<div class="agreebtn">
-				<button id="btn">동의하고 가입완료</button>
+				<input type="button" value="동의하고 가입완료" id="btn">
+				
 			</div>
 
 		</div>
@@ -523,30 +528,22 @@ section {
 			c2[0].addEventListener('blur', function() {
 				if (c2[0].value.length == 0) {
 					c2[1].innerHTML = "필수 입력사항입니다.";
-				} else {
-					c2[1].innerHTML = null;
 				}
 			});
 			c3[0].addEventListener('blur', function() {
 				if (c3[0].value.length == 0) {
 					c3[1].innerHTML = "필수 입력사항입니다.";
-				} else {
-					c3[1].innerHTML = null;
 				}
 			});
 			c4[0].addEventListener('blur', function() {
 				if (c4[0].value.length == 0) {
 					c4[1].innerHTML = "필수 입력사항입니다.";
-				} else {
-					c4[1].innerHTML = null;
-				}
+				} 
 			});
 			c5[0].addEventListener('blur', function() {
 				if (c5[0].value.length == 0) {
 					c5[1].innerHTML = "필수 입력사항입니다.";
-				} else {
-					c5[1].innerHTML = null;
-				}
+				} 
 			});
 		</script>
 
