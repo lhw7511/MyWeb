@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/MyWeb/css/common/reset.css">
+<link rel="stylesheet" href="/MyWeb/css/header/header.css">
+<link rel="stylesheet" href="/MyWeb/css/footer/footer.css">
+<style type="text/css">
+section {
+	width: 1300px;
+	height: 1500px;
+	margin: 200px auto 100px;
+}
+
+.titlebox {
+	width: 1300px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+.title {
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 13px;
+	color: #333;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	font-family: 'Roboto', 'Nanum Gothic', arial;
+	text-align: center;
+	line-height: 40px;
+}
+
+.joinwrap {
+	width: 70%;
+	height: 1050px;
+	margin: 0 auto;
+	margin: 0 auto;
+}
+
+.joinform {
+	margin-bottom: 12px;
+}
+
+.joinform p {
+	width: 100%;
+	list-style: none;
+	height: 49px;
+	line-height: 49px;
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	color: #000;
+}
+
+.joinform p input {
+	width: 100%;
+	height: 49px;
+	padding: 0 23px;
+	box-sizing: border-box;
+	font-weight: bold;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+#gender {
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 100%;
+	height: 49px;
+	line-height: 49px; border-left : 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;
+}
+
+#gender input {
+	width: 40px;
+	height: 15px;
+}
+
+.agecheck {
+	margin-top: 15px;
+}
+
+.checkwrap {
+	margin-top: 10px;
+	width: 100%;
+	height: 300px;
+}
+
+.wholecheck {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #E1E1E1;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.mustcheck {
+	width: 100%;
+	height: 100px;
+	border: 1px solid #E1E1E1;
+	box-sizing: border-box;
+}
+
+.mustcheck p {
+	margin-left: 45px; font-size : 12px;
+	font-weight: bold;
+	color: #333333;
+	box-sizing: border-box;
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	font-size: 12px;
+}
+
+.choicecheck {
+	width: 100%;
+	height: 150px;
+	border-bottom: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	border-top: 1px dashed #E1E1E1;
+	box-sizing: border-box;
+}
+
+.choicecheck p {
+	margin-left: 45px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.marketingintro {
+	height: 90px;
+}
+
+.marketingintro p {
+	height: 30px;
+	line-height: 30px;
+	color: #555555;
+}
+
+.agreebtn {
+	width: 100%;
+	height: 175px;
+	line-height: 175px;
+}
+
+.agreebtn button {
+	background-color: #0549bb;
+	color: white;
+	width: 200px;
+	height: 50px;
+	margin-left: 355px;
+	margin-right: 355px;
+	border: 1px solid #053688;
+	cursor: pointer;
+}
+
+.f1 {
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}
+</style>
+</head>
+<body>
+	<header>
+		<div id="header_top">
+			<div id="header_logo" class="header_menu">
+				<a href="/MyWeb/index.html"><img alt="" src="/MyWeb/images/main/logo.jpg"></a>
+			</div>
+			<div id="header_nav" class="header_menu">
+				<ul>
+					<li><a href="#">NEW10%</a></li>
+					<li><a href="#">BEST</a></li>
+					<li><a href="#">MADE</a></li>
+					<li><a href="#">CODI SET</a></li>
+					<li><a href="#">OUTER</a>
+						<div class="drop">
+							<p>
+								<a href="#">코트</a>
+							</p>
+							<p>
+								<a href="#">자켓</a>
+							</p>
+							<p>
+								<a href="#">조끼</a>
+							</p>
+							<p>
+								<a href="#">가디건</a>
+							</p>
+							<p>
+								<a href="#">레더자켓</a>
+							</p>
+							<p>
+								<a href="#">집업/점퍼</a>
+							</p>
+							<p>
+								<a href="#">패딩/패딩코트</a>
+							</p>
+							<p>
+								<a href="#">데님자켓</a>
+							</p>
+						</div></li>
+					<li><a href="#">KNIT/CARDIGAN</a></li>
+					<li><a href="#">SHIRTS</a>
+						<div class="drop">
+							<p>
+								<a href="#">베이직셔츠</a>
+							</p>
+							<p>
+								<a href="#">체크/스트라이프셔츠</a>
+							</p>
+							<p>
+								<a href="#">반팔셔츠</a>
+							</p>
+						</div></li>
+					<li><a href="#">TEE</a>
+						<div class="drop">
+							<p>
+								<a href="#">반팔티/7부티</a>
+							</p>
+							<p>
+								<a href="#">긴팔티</a>
+							</p>
+							<p>
+								<a href="#">니트</a>
+							</p>
+							<p>
+								<a href="#">하프넥/터틀넥</a>
+							</p>
+							<p>
+								<a href="#">맨투맨</a>
+							</p>
+							<p>
+								<a href="#">후드티</a>
+							</p>
+							<p>
+								<a href="#">무지티</a>
+							</p>
+							<p>
+								<a href="#">나시티</a>
+							</p>
+						</div></li>
+					<li><a href="#">PANTS</a>
+						<div class="drop">
+							<p>
+								<a href="#">청바지</a>
+							</p>
+							<p>
+								<a href="#">슬랙스</a>
+							</p>
+							<p>
+								<a href="#">면바지</a>
+							</p>
+							<p>
+								<a href="#">생지/코팅바지</a>
+							</p>
+							<p>
+								<a href="#">밴딩팬츠</a>
+							</p>
+							<p>
+								<a href="#">트레이닝바지</a>
+							</p>
+							<p>
+								<a href="#">반바지</a>
+							</p>
+							<p>
+								<a href="#">FIT : 일자바지</a>
+							</p>
+							<p>
+								<a href="#">FIT : 와이드팬츠</a>
+							</p>
+						</div></li>
+					<li><a href="#">SUIT</a></li>
+					<li><a href="#">SHOES</a>
+						<div class="drop">
+							<p>
+								<a href="#">구두/로퍼</a>
+							</p>
+							<p>
+								<a href="#">운동화/스니커즈</a>
+							</p>
+							<p>
+								<a href="#">샌들/쪼리/슬리퍼</a>
+							</p>
+							<p>
+								<a href="#">워커</a>
+							</p>
+							<p>
+								<a href="#">깔창</a>
+							</p>
+
+						</div></li>
+					<li><a href="#">BAG</a></li>
+					<li><a href="#">SOCKS</a></li>
+					<li><a href="#">CAP</a></li>
+					<li><a href="#">ACC</a>
+						<div class="drop">
+							<p>
+								<a href="#">벨트</a>
+							</p>
+							<p>
+								<a href="#">반지</a>
+							</p>
+							<p>
+								<a href="#">팔찌</a>
+							</p>
+							<p>
+								<a href="#">목걸이</a>
+							</p>
+							<p>
+								<a href="#">안경/선글라스</a>
+							</p>
+							<p>
+								<a href="#">목도리/장갑</a>
+							</p>
+							<p>
+								<a href="#">ETC</a>
+							</p>
+						</div></li>
+					<li><a href="#">SALE</a></li>
+				</ul>
+			</div>
+			<div id="header_sub" class="header_menu">
+				<ul>
+					<li><a href="#"><img alt=""
+							src="/MyWeb/images/main/search.png"></a></li>
+					<li><a href="#"><img alt=""
+							src="/MyWeb/images/main/board.png"></a></li>
+					<li><a href="#"><img alt=""
+							src="/MyWeb/images/main/basket.png"></a></li>
+					<li><a href="#"><img alt=""
+							src="/MyWeb/images/main/login.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="titlebox">
+			<div class="title">
+				<span>MEMBER JOIN</span>
+			</div>
+		</div>
+		<div class="joinwrap">
+			<div class="joinform">
+				<p>
+					<input type="text" placeholder="이름" class="c1 c2 ">
+				</p>
+				<div class="c2 f1"></div>
+				<p>
+					<input type="text" placeholder="아이디" class="c1 c3">
+				</p>
+				<div class="c3 f1"></div>
+				<p>
+					<input type="password" placeholder="비밀번호" class="c1" id="pw1">
+				</p>
+				<p>
+					<input type="password" placeholder="비밀번호 확인" class="c1" id="pw2">
+				</p>
+				<div id="pwResult" class="f1"></div>
+				<p>
+					<input type="email" placeholder="이메일" class="c1 c4">
+				</p>
+				<div class="c4 f1"></div>
+				<p>
+					<input type="date">
+				<div id="gender">
+					<input type="radio" value="1" name="gender" checked="checked">남
+					<input type="radio" value="2" name="gender">여
+				</div>
+
+				<p>
+					<input type="number" placeholder="휴대폰번호" class="c1 c5">
+				</p>
+				<div class="c5 f1"></div>
+			</div>
+
+
+			<div class="agecheck">
+				<p>
+					<input type="checkbox"> <span
+						style="color: #0549bb; font-size: 14px; font-weight: bold;">14세이상입니다.
+						(필수)</span>
+				</p>
+				<p style="color: #999; font-size: 12px;">* 회원가입에 필요한 최소한의 정보만 입력
+					받음으로써 고객님의 개인정보 수집을 최소화하고</p>
+				<p style="color: #999; font-size: 12px;">편리한 회원가입을 제공합니다.</p>
+			</div>
+
+			<div class="checkwrap">
+				<div class="wholecheck">
+					<input type="checkbox" id="d1"><span
+						style="font-size: 14px; font-weight: bold; margin-left: 10px">전체동의</span>
+				</div>
+				<div class="mustcheck">
+					<p>
+						<input type="checkbox" class="a1"><span>이용약관</span>
+					</p>
+					<p>
+						<input type="checkbox" class="a1"><span>개인정보 수집 및
+							이용 안내</span>
+					</p>
+					<p>
+						<input type="checkbox" class="a1"><span>개인정보 처리위탁</span>
+					</p>
+				</div>
+				<div class="choicecheck">
+					<div style="height: 60px; line-height: 60px;">
+						<p>
+							<input type="checkbox" class="a1"><span>마케팅 수신동의</span>
+						</p>
+					</div>
+					<div class="marketingintro">
+						<p>쇼핑몰에서 제공하는 신상품 소식/ 할인쿠폰을 무상으로 보내드립니다!</p>
+						<p>단, 상품 구매 정보는 수신동의 여부 관계없이 발송됩니다.</p>
+						<p style="color: #333333; font-weight: bold;">제공 동의를 하지 않으셔도
+							서비스 이용에는 문제가 없습니다.</p>
+					</div>
+				</div>
+			</div>
+			<div class="agreebtn">
+				<button id="btn">동의하고 가입완료</button>
+			</div>
+
+		</div>
+		<script type="text/javascript">
+			var btn = document.getElementById("btn");
+			var c1 = document.getElementsByClassName("c1");
+			var c2 = document.getElementsByClassName("c2");
+			var c3 = document.getElementsByClassName("c3");
+			var c4 = document.getElementsByClassName("c4");
+			var c5 = document.getElementsByClassName("c5");
+			var pw1 = document.getElementById("pw1");
+			var pw2 = document.getElementById("pw2");
+			var pwresult = document.getElementById("pwResult");
+			var d1 = document.getElementById("d1");
+			var a1 = document.getElementsByClassName("a1");
+			var count = 0;
+			d1.addEventListener('click', function() {
+				if (d1.checked == true) {
+					for (var i = 0; i < c1.length; i++) {
+						a1[i].checked = true;
+
+					}
+				} else {
+					for (var i = 0; i < c1.length; i++) {
+						a1[i].checked = false;
+
+					}
+				}
+			});
+			for (var i = 0; i < a1.length; i++) {
+				a1[i].addEventListener('click', function() {
+					var result = true;
+					for (var j = 0; j < a1.length; j++) {
+						if (!a1[j].checked) {
+							result = false;
+						}
+					}
+					d1.checked = result;
+				});
+			}
+			btn.addEventListener('click', function() {
+				var count = 0;
+				var check = true;
+				if (c1[1].value.length >= 5 && c1[1].value.length < 10) {
+					count++;
+				}
+				if (c1[2].value.length >= 6 && c1[2].value.length < 14) {
+					count++;
+				}
+				if (c1[2].value == c1[3].value) {
+					count++;
+				}
+				for (var i = 0; i < c1.length; i++) {
+
+					if (c1[i].value.length == 0) {
+						check = false;
+						break;
+					}
+				}
+				if (check) {
+					count++;
+				}
+				if (count == 4 && d1.checked) {
+					alert("Success");
+				} else {
+					alert("Fail");
+				}
+
+			});
+
+			pw1.addEventListener('keyup', function() {
+				if (pw2.value.length != 0) {
+					if (pw2.value == pw1.value) {
+						pwresult.style.color = "blue";
+						pwresult.innerHTML = "패스워드가 일치합니다.";
+					} else {
+						pwresult.style.color = "red";
+						pwresult.innerHTML = "패스워드가 다릅니다.";
+					}
+				}
+			});
+			pw2.addEventListener('keyup', function() {
+				if (pw2.value == pw1.value) {
+					pwresult.style.color = "blue";
+					pwresult.innerHTML = "패스워드가 일치합니다.";
+				} else {
+					pwresult.style.color = "red";
+					pwresult.innerHTML = "패스워드가 다릅니다.";
+				}
+			});
+
+			c2[0].addEventListener('blur', function() {
+				if (c2[0].value.length == 0) {
+					c2[1].innerHTML = "필수 입력사항입니다.";
+				} else {
+					c2[1].innerHTML = null;
+				}
+			});
+			c3[0].addEventListener('blur', function() {
+				if (c3[0].value.length == 0) {
+					c3[1].innerHTML = "필수 입력사항입니다.";
+				} else {
+					c3[1].innerHTML = null;
+				}
+			});
+			c4[0].addEventListener('blur', function() {
+				if (c4[0].value.length == 0) {
+					c4[1].innerHTML = "필수 입력사항입니다.";
+				} else {
+					c4[1].innerHTML = null;
+				}
+			});
+			c5[0].addEventListener('blur', function() {
+				if (c5[0].value.length == 0) {
+					c5[1].innerHTML = "필수 입력사항입니다.";
+				} else {
+					c5[1].innerHTML = null;
+				}
+			});
+		</script>
+
+	</section>
+	<footer>
+		<div id="footer_wrap">
+			<div id="footer_content_1">
+				<p style="font-size: 13px; color: black; font-weight: bold">COMPANY
+					INFO</p>
+				<br>
+				<p>COMPANY. (주)에프엔에스리테일</p>
+				<p>Tell: 1544-4925</p>
+				<p>E-MAIL: biz@fnsretail.com</p>
+				<p>ADDRESS. 5F, 45, Apgujeong-ro 2-gil, Gangnam-gu,</p>
+				<p>Seoul, Republic of Korea</p>
+				<br>
+				<p>OWNER. 박정수</p>
+				<p>BUSINESS LICENSE. 201-86-40287</p>
+				<p>MAIL-ORDER LICENSE. 제2017호-서울강남-01471호</p>
+				<p>개인정보 보호 책임자. 박연수</p>
+				<br>
+				<p style="font-size: 11px; color: #317BAF">교환/반품 주소.</p>
+				<p>서울시 성북구 길음동 1262-211번지 CJ택배 길음대리점 플라이데이 앞</p>
+				<p>(도로명 주소 : 성북구 숭인로 14, CJ대한통운 길음대리점 플라이데이 앞)</p>
+				<p>( CJ 대한통운 1588-1255 )</p>
+				<br>
+				<p style="font-size: 11px; color: #317BAF">타택배 반품 주소.</p>
+				<p>서울시 중랑구 망우동 530-3 B1 플라이데이 앞</p>
+				<br>
+				<p>COPYRIGHT(C) 2016 FLYDAY. ALL RIGHT RESERVED.</p>
+				<p>HOSTING BY (주)코리아센터닷컴 MAKESHOP</p>
+
+
+			</div>
+			<div id="footer_content_2">
+				<p style="font-size: 13px; color: black; font-weight: bold">C/S
+					CENTER</p>
+				<br>
+				<p style="font-size: 12px; color: black; font-weight: bold">1544
+					-4925</p>
+				<p>MON - FRI AM 10:00 ~ PM 05:00</p>
+				<p>SAT / SUN / HOLIDAY OFF</p>
+				<br>
+				<p>기업 274-084270-01-025</p>
+				<p>국민 409101-01-263118</p>
+				<p>신한 140-012-981985</p>
+				<p>농협 301-0191-5227-01</p>
+				<p>예금주 : 주식회사 에프엔에스리테일</p>
+				<br> <img src="/MyWeb/images/main/footer_service_img.jpg"
+					style="width: 230px; height: 65px">
+			</div>
+			<div id="footer_content_3">
+				<p style="font-size: 13px; color: black; font-weight: bold">GUIDE
+					MENU</p>
+				<br>
+
+
+				<p>
+					<a href="#">회원혜택</a>
+				</p>
+				<p>
+					<a href="#">이용약관</a>
+				</p>
+				<p>
+					<a href="#"
+						style="text-decoration: none; font-size: 11px; color: black; font-weight: bold">
+						개인정보처리방침</a>
+				</p>
+				<p>
+					<a href="#">이용안내</a>
+				</p>
+				<p>
+					<a href="#">제휴문의</a>
+				</p>
+				<p>
+					<a href="#">채용공고</a>
+				</p>
+				<br>
+				<p>
+					<a href="#">NOTICE</a>
+				</p>
+				<p>
+					<a href="#">Q&A</a>
+				</p>
+				<p>
+					<a href="#">REVIEW</a>
+				</p>
+				<p>
+					<a href="#">EVENT</a>
+				</p>
+
+
+			</div>
+			<div id="footer_content_4">
+				<img alt="" src="/MyWeb/images/main/footer_insta.PNG"
+					style="padding: 0px 0px 56px 9.5px; box-sizing: border-box;">
+			</div>
+
+		</div>
+
+	</footer>
+</body>
+</html>
